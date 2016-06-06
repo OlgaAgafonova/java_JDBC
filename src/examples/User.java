@@ -13,10 +13,10 @@ public class User {
         this.email = email;
     }
 
-    public User(String name, String email) {
+    public User(String name, int age, String email) {
         this.id = 0;
         this.name = name;
-        this.age = 0;
+        this.age = age;
         this.email = email;
     }
 
@@ -31,6 +31,10 @@ public class User {
 
     public String getEmail() {
         return email;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     @Override
